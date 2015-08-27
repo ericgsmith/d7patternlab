@@ -89,5 +89,55 @@
 		{ },
 		{ },
 		{ }
-	]
+	],
+    "forms" : {
+        "text" : {
+            "description" : false,
+            "required": false,
+            "error": false,
+            "showLabel": true
+        },
+        "select" : {
+            "description" : false,
+            "required": false,
+            "error": false,
+            "showLabel": true
+        },
+        "checkbox" : {
+            "description" : false,
+            "required": false,
+            "error": false,
+            "showLabel": true
+        },
+        "checkboxes" : {
+            "description" : false,
+            "required": false,
+            "error": false,
+            "showLabel": true
+        },
+        "radios" : {
+            "description" : false,
+            "required": false,
+            "error": false,
+            "showLabel": true
+        },
+        "password" : {
+            "description" : false,
+            "required": false,
+            "error": false,
+            "showLabel": true
+        },
+        "textarea" : {
+            "description" : false,
+            "required": false,
+            "error": false,
+            "showLabel": true
+        },
+        "date" : {
+            "description" : false,
+            "required": false,
+            "error": false,
+            "showLabel": true
+        }
+    }
 }

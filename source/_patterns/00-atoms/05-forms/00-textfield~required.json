@@ -1,0 +1,8 @@
+{
+    "forms" : {
+        "text" : {
+            "required" : true,
+            "showLabel" : true
+        }
+    }
+}

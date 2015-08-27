@@ -1,0 +1,9 @@
+<div class="form-item form-type-textfield form-item-textfield">
+    {{# forms.text.showLabel }}
+        <label for="edit-textfield">Textfield {{# forms.text.required }}<span class="form-required" title="This field is required.">*</span>{{/ forms.text.required }}</label>
+    {{/ forms.text.showLabel }}
+    <input type="text" id="edit-textfield" name="textfield" value="Ac eu vitae" size="60" maxlength="128" class="form-text{{# forms.text.error }} error{{/ forms.text.error }}">
+    {{# forms.text.description }}
+    <div class="description">{{ forms.text.description }}</div>
+    {{/ forms.text.description }}
+</div>

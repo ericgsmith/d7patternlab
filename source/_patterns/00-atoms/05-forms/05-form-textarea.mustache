@@ -1,0 +1,14 @@
+<div class="form-item form-type-textarea form-item-textarea">
+    {{# forms.text.showLabel }}
+    <label for="edit-textarea">Textarea {{# forms.text.required }}<span class="form-required" title="This field is required.">*</span>{{/ forms.text.required }}</label>
+    {{/ forms.text.showLabel }}
+            <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
+        <textarea id="edit-textarea" name="textarea" cols="60" rows="5" class="form-textarea">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis, velit gravida convallis tincidunt, felis enim venenatis lorem, nec lobortis nisl urna et mi. Pellentesque ac dictum ante. Fusce dignissim tempor elementum. Ut dignissim convallis eros, viverra luctus lacus consequat ac. Sed feugiat velit sed magna aliquam accumsan. Nam vitae porta tortor. Nam auctor dui a neque iaculis in aliquam erat viverra. Duis orci nunc, lacinia in malesuada et, euismod id turpis. Cras mattis vulputate erat, eget tempor magna egestas eu. Vestibulum sit amet massa est.
+        </textarea>
+        <div class="grippie"></div>
+    </div>
+    {{# forms.text.description }}
+        <div class="description">{{ forms.text.description }}</div>
+    {{/ forms.text.description }}
+</div>
