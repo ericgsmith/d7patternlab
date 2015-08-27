@@ -12,8 +12,11 @@
         "/modules/field/theme/field.css",
         "/modules/node/node.css",
         "/modules/search/search.css",
-        "/modules/user/user.css"
-    ],
+        "/modules/user/user.css",
+        "/themes/bartik/css/layout.css",
+        "/themes/bartik/css/style.css",
+        "/themes/bartik/css/colors.css"
+],
 	"img": {
 		"thumbnail": {
 			"src": "http://placehold.it/100/100",
