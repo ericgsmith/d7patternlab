@@ -2,7 +2,7 @@
 	"warning": {
 		"alertClass" : "warning",
 		"excerpt" : {
-			"short" : "Emergency! This is a variation of the core homepage template."
+			"short" : "Warning! This is a variation of the core homepage template."
 		}
 	}
 }

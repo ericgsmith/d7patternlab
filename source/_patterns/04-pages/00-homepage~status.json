@@ -2,7 +2,7 @@
 	"status": {
 		"alertClass" : "status",
 		"excerpt" : {
-			"short" : "Emergency! This is a variation of the core homepage template."
+			"short" : "Status! This is a variation of the core homepage template."
 		}
 	}
 }

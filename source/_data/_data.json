@@ -3,27 +3,30 @@
 	"htmlClass": "pl",
 	"bodyClass": "body",
     "drupalRoot" : "http://d7lab.local",
+    "drupalStyleSheets" : [
+        "/modules/system/system.base.css",
+        "/modules/system/system.menus.css",
+        "/modules/system/system.messages.css",
+        "/modules/system/system.theme.css",
+        "/modules/comment/comment.css",
+        "/modules/field/theme/field.css",
+        "/modules/node/node.css",
+        "/modules/search/search.css",
+        "/modules/user/user.css"
+    ],
 	"img": {
-		"landscape-4x3": {
-			"src": "../../images/fpo_4x3.png",
-			"alt": "4x3 Image"
+		"thumbnail": {
+			"src": "http://placehold.it/100/100",
+			"alt": "Thumbnail Image"
 		},
-		"landscape-16x9": {
-			"src": "../../images/fpo_16x9.png",
-			"alt": "16x9 Image"
-		},
-		"square": {
-			"src": "../../images/fpo_square.png",
-			"alt": "Square Thumbnail"
-		},
-		"avatar" : {
-			"src" : "../../images/fpo_avatar.png",
-			"alt" : "Person Name"
-		},
-		"rectangle": {
-			"src": "http://placeimg.com/400/300/tech",
-			"alt": "Rectangle"
-		}
+        "medium": {
+            "src": "http://placehold.it/220/220",
+            "alt": "Medium Image"
+        },
+        "large": {
+            "src": "http://placehold.it/480/480",
+            "alt": "Large Image"
+        }
 	},
 	"headline" : {
 		"short" : "Lorem ipsum dolor sit (37 characters)",
@@ -77,13 +80,9 @@
 		"first-name": "Author",
 		"last-name": "Name"
 	},
-	"hero": true,
 	"emergency" : false,
-	"touts" : [
-		{ },
-		{ },
-		{ }
-	],
+	"warning" : false,
+	"status" : false,
 	"latest-posts" : [
 		{ },
 		{ },
