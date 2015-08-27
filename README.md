@@ -8,7 +8,7 @@ This also aims to be a base to improve documentation for Drupal 7 front end proj
 This is completely un tested in the real world and I'm am keen to get feedback / testing / improvements under way. Please
 use the GitHub issue queue for any issues / improvements.
 
-## About Pattern Lab
+## About Pattern     Lab
 - [Pattern Lab Website](http://patternlab.io/)
 - [About Pattern Lab](http://patternlab.io/about.html)
 - [Documentation](http://patternlab.io/docs/index.html)
@@ -40,7 +40,7 @@ Example
 ```
 
 ## Forms
-Forms... forms... forms. These can be a cunt the theme in Drupal, so we have matched Drupals form classes to our form
+Forms... forms... forms. These can be a cunt to theme in Drupal, so we have matched Drupals form classes to our form
 atoms.
 
 Each form item can have its label, error state, required state and description altered in data.json, or per template.
