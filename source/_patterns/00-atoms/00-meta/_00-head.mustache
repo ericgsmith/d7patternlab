@@ -4,8 +4,18 @@
 		<title>{{ title }}</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width" />
-		
+
 		<link rel="stylesheet" href="../../css/style.css?{{ cacheBuster }}" media="all" />
+
+            <link rel="stylesheet" href="{{ drupalRoot }}/modules/system/system.base.css" media="all" />
+            <link rel="stylesheet" href="{{ drupalRoot }}/modules/system/system.menus.css" media="all" />
+            <link rel="stylesheet" href="{{ drupalRoot }}/modules/system/system.messages.css" media="all" />
+            <link rel="stylesheet" href="{{ drupalRoot }}/modules/system/system.theme.css" media="all" />
+            <link rel="stylesheet" href="{{ drupalRoot }}/modules/comment/comment.css" media="all" />
+            <link rel="stylesheet" href="{{ drupalRoot }}/modules/field/theme/field.css" media="all" />
+            <link rel="stylesheet" href="{{ drupalRoot }}/modules/node/node.css" media="all" />
+            <link rel="stylesheet" href="{{ drupalRoot }}/modules/search/search.css" media="all" />
+            <link rel="stylesheet" href="{{ drupalRoot }}/modules/user/user.css" media="all" />
 
 		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
 		{% pattern-lab-head %}
