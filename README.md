@@ -1,12 +1,8 @@
 # Drupal7 Pattern Lab Starter
-This is a start for using Pattern Lab with a Drupal 7 project. The Patter Lab examples / starter patterns and data
-have been stripped down to the absolute basics, with some Drupal specific elements added. This is less example based
-that the standard Pattern Lab, and is intended to be used as a starter for D7.
+This is a starter for using Pattern Lab with a Drupal 7 project. The Pattern Lab examples and data have been stripped 
+down to the absolute basics, with some Drupal specific elements added.
 
 This also aims to be a base to improve documentation for Drupal 7 front end projects.
-
-This is completely un tested in the real world and I'm am keen to get feedback / testing / improvements under way. Please
-use the GitHub issue queue for any issues / improvements.
 
 ## About Pattern     Lab
 - [Pattern Lab Website](http://patternlab.io/)
@@ -22,7 +18,8 @@ pattern lab.
 Use `drupalRoot` to point Pattern Lab at a Drupal installation to get CSS files from.
 Use `drupalStyleSheets` to list any style sheets to import from Drupal (relative to the document root).
 
-Example
+###Example
+Uses a handful of core module stylesheets and the Bartik theme.
 
 ```
     "drupalRoot" : "http://d7lab.local",
@@ -45,7 +42,9 @@ atoms.
 
 Each form item can have its label, error state, required state and description altered in data.json, or per template.
 
-Example
+###Example
+Shows the example data for a textarea used in a pattern. This requires refactoring as it currently limits the page / 
+pattern to the same data for each field type.
 
 ```
     "textarea" : {
@@ -57,8 +56,8 @@ Example
 ```
 
 ## Image styles
-Please, please, please add a new image atom for each image style we create in Drupal.
+Add a new image atom for each image style created in Drupal.
 
 ## View modes
-Drupal view modes are awesome. Currently we provide an example molecule for the teaser view modes. Again, please please
-document all view modes.
+Currently we provide an example organism for the node teaser view mode. All available view modes should be documented / 
+added to Pattern Lab.
