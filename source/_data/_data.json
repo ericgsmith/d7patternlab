@@ -1,146 +1,146 @@
 {
-	"title" : "Drupal 7 Pattern Lab",
-	"htmlClass": "pl",
-	"bodyClass": "body",
-    "drupalRoot" : "http://d7lab.local",
-    "drupalStyleSheets" : [
-        "/modules/system/system.base.css",
-        "/modules/system/system.menus.css",
-        "/modules/system/system.messages.css",
-        "/modules/system/system.theme.css",
-        "/modules/comment/comment.css",
-        "/modules/field/theme/field.css",
-        "/modules/node/node.css",
-        "/modules/search/search.css",
-        "/modules/user/user.css",
-        "/themes/bartik/css/layout.css",
-        "/themes/bartik/css/style.css",
-        "/themes/bartik/css/colors.css"
-],
-	"img": {
-		"thumbnail": {
-			"src": "http://placehold.it/100/100",
-			"alt": "Thumbnail Image"
-		},
-        "medium": {
-            "src": "http://placehold.it/220/220",
-            "alt": "Medium Image"
-        },
-        "large": {
-            "src": "http://placehold.it/480/480",
-            "alt": "Large Image"
-        }
-	},
-	"headline" : {
-		"short" : "Lorem ipsum dolor sit (37 characters)",
-		"medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)"
-	},
-	"excerpt" : {
-		"short" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-		"medium" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-		"long" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-	},
-	"description" : "So, setting about it as methodically as men might smoke out a wasps' nest, the Martians spread this strange stifling vapour over the Londonward country. The horns of the crescent slowly moved apart, until at last they formed a line from Hanwell to Coombe and Malden. All night through their destructive tubes advanced.",
-	"url" : "#",
-	"name" : {
-		"first": "Lacy",
-		"firsti": "L",
-		"middle": "Tommie",
-		"middlei": "T",
-		"last": "Way",
-		"lasti": "W"
-	},
-	"year" : {
-		"long": "2013",
-		"short": "13"
-	},
-	"month" : {
-		"long": "February",
-		"short": "Feb",
-		"digit": "02"
-	},
-	"dayofweek" : {
-		"long": "Monday",
-		"short": "Mon"
-	},
-	"day" : {
-		"long": "10",
-		"short": "10",
-		"ordinal": "th"
-	},
-	"hour" : {
-		"long": "01",
-		"short": "1",
-		"military": "13",
-		"ampm": "pm"
-	},
-	"minute" : {
-		"long": "20",
-		"short": "20"
-	},
-	"seconds" : "31",
-	"author" : {
-		"first-name": "Author",
-		"last-name": "Name"
-	},
-	"emergency" : false,
-	"warning" : false,
-	"status" : false,
-	"latest-posts" : [
-		{ },
-		{ },
-		{ },
-		{ },
-		{ }
-	],
-    "forms" : {
-        "text" : {
-            "description" : false,
-            "required": false,
-            "error": false,
-            "showLabel": true
-        },
-        "select" : {
-            "description" : false,
-            "required": false,
-            "error": false,
-            "showLabel": true
-        },
-        "checkbox" : {
-            "description" : false,
-            "required": false,
-            "error": false,
-            "showLabel": true
-        },
-        "checkboxes" : {
-            "description" : false,
-            "required": false,
-            "error": false,
-            "showLabel": true
-        },
-        "radios" : {
-            "description" : false,
-            "required": false,
-            "error": false,
-            "showLabel": true
-        },
-        "password" : {
-            "description" : false,
-            "required": false,
-            "error": false,
-            "showLabel": true
-        },
-        "textarea" : {
-            "description" : false,
-            "required": false,
-            "error": false,
-            "showLabel": true
-        },
-        "date" : {
-            "description" : false,
-            "required": false,
-            "error": false,
-            "showLabel": true
-        }
+  "title": "Drupal 7 Pattern Lab",
+  "htmlClass": "pl",
+  "bodyClass": "body",
+  "drupalRoot": "http://d7lab.dev",
+  "drupalStyleSheets": [
+    "/modules/system/system.base.css",
+    "/modules/system/system.menus.css",
+    "/modules/system/system.messages.css",
+    "/modules/system/system.theme.css",
+    "/modules/comment/comment.css",
+    "/modules/field/theme/field.css",
+    "/modules/node/node.css",
+    "/modules/search/search.css",
+    "/modules/user/user.css",
+    "/themes/bartik/css/layout.css",
+    "/themes/bartik/css/style.css",
+    "/themes/bartik/css/colors.css"
+  ],
+  "img": {
+    "thumbnail": {
+      "src": "http://placehold.it/100/100",
+      "alt": "Thumbnail Image"
+    },
+    "medium": {
+      "src": "http://placehold.it/220/220",
+      "alt": "Medium Image"
+    },
+    "large": {
+      "src": "http://placehold.it/480/480",
+      "alt": "Large Image"
     }
+  },
+  "headline": {
+    "short": "Lorem ipsum dolor sit (37 characters)",
+    "medium": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)"
+  },
+  "excerpt": {
+    "short": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "medium": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  "description": "So, setting about it as methodically as men might smoke out a wasps' nest, the Martians spread this strange stifling vapour over the Londonward country. The horns of the crescent slowly moved apart, until at last they formed a line from Hanwell to Coombe and Malden. All night through their destructive tubes advanced.",
+  "url": "#",
+  "name": {
+    "first": "Lacy",
+    "firsti": "L",
+    "middle": "Tommie",
+    "middlei": "T",
+    "last": "Way",
+    "lasti": "W"
+  },
+  "year": {
+    "long": "2013",
+    "short": "13"
+  },
+  "month": {
+    "long": "February",
+    "short": "Feb",
+    "digit": "02"
+  },
+  "dayofweek": {
+    "long": "Monday",
+    "short": "Mon"
+  },
+  "day": {
+    "long": "10",
+    "short": "10",
+    "ordinal": "th"
+  },
+  "hour": {
+    "long": "01",
+    "short": "1",
+    "military": "13",
+    "ampm": "pm"
+  },
+  "minute": {
+    "long": "20",
+    "short": "20"
+  },
+  "seconds": "31",
+  "author": {
+    "first-name": "Author",
+    "last-name": "Name"
+  },
+  "emergency": false,
+  "warning": false,
+  "status": false,
+  "latest-posts": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "forms": {
+    "text": {
+      "description": false,
+      "required": false,
+      "error": false,
+      "label": "Texfield"
+    },
+    "select": {
+      "description": false,
+      "required": false,
+      "error": false,
+      "label": "Select"
+    },
+    "date": {
+      "description": false,
+      "required": false,
+      "error": false,
+      "label": "Date"
+    },
+    "checkbox": {
+      "description": false,
+      "required": false,
+      "error": false,
+      "label": "Checkbox"
+    },
+    "checkboxes": {
+      "description": false,
+      "required": false,
+      "error": false,
+      "label": "Checkboxes"
+    },
+    "radios": {
+      "description": false,
+      "required": false,
+      "error": false,
+      "label": "Radio buttons"
+    },
+    "password": {
+      "description": "Enter the password that accompanies your username.",
+      "required": true,
+      "error": false,
+      "label": "Password"
+    },
+    "textarea": {
+      "description": false,
+      "required": false,
+      "error": false,
+      "label": "Textarea"
+    }
+  }
 }

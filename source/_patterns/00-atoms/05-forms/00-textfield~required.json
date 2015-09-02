@@ -2,7 +2,7 @@
     "forms" : {
         "text" : {
             "required" : true,
-            "showLabel" : true
+            "label" : "Required textfield"
         }
     }
 }

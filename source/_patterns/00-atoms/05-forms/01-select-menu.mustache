@@ -1,15 +1,15 @@
 <div class="form-item form-type-select form-item-select">
-    {{# forms.text.showLabel }}
-    <label for="edit-select">Select {{# forms.text.required }}<span class="form-required" title="This field is required.">*</span>{{/ forms.text.required }}</label>
-    {{/ forms.text.showLabel }}
+    {{# forms.select.label }}
+    <label for="edit-select">{{ forms.select.label }} {{# forms.select.required }}<span class="form-required" title="This field is required.">*</span>{{/ forms.select.required }}</label>
+    {{/ forms.select.label }}
     <select id="edit-select" name="select" class="form-select">
         <option value="Iaculis viverra vestibulum">Iaculis viverra vestibulum</option>
         <option value="Urna id est">Urna id est</option>
         <option value="Nam eget auctor">Nam eget auctor</option>
         <option value="Viverra iaculis tempor">Viverra iaculis tempor</option>
         <option value="Fusce accumsan amet">Fusce accumsan amet</option></select>
-    {{# forms.text.description }}
-        <div class="description">{{ forms.text.description }}</div>
-    {{/ forms.text.description }}
+    {{# forms.select.description }}
+        <div class="description">{{ forms.select.description }}</div>
+    {{/ forms.select.description }}
 </div>
 

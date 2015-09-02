@@ -1,7 +1,7 @@
 <div class="form-item form-type-checkboxes form-item-checkboxes">
-    {{# forms.text.showLabel }}
-        <label for="edit-checkboxes">Checkboxes {{# forms.text.required }}<span class="form-required" title="This field is required.">*</span>{{/ forms.text.required }}</label>
-    {{/ forms.text.showLabel }}
+    {{# forms.checkboxes.label }}
+        <label for="edit-checkboxes">{{ forms.checkboxes.label }} {{# forms.checkboxes.required }}<span class="form-required" title="This field is required.">*</span>{{/ forms.checkboxes.required }}</label>
+    {{/ forms.checkboxes.label }}
     <div id="edit-checkboxes" class="form-checkboxes"><div class="form-item form-type-checkbox form-item-checkboxes-Iaculis-viverra-vestibulum">
         <input type="checkbox" id="edit-checkboxes-iaculis-viverra-vestibulum" name="checkboxes[Iaculis viverra vestibulum]" value="Iaculis viverra vestibulum" class="form-checkbox">  <label class="option" for="edit-checkboxes-iaculis-viverra-vestibulum">Iaculis viverra vestibulum </label>
 
@@ -23,7 +23,7 @@
 
         </div>
     </div>
-    {{# forms.text.description }}
-        <div class="description">{{ forms.text.description }}</div>
-    {{/ forms.text.description }}
+    {{# forms.checkboxes.description }}
+        <div class="description">{{ forms.checkboxes.description }}</div>
+    {{/ forms.checkboxes.description }}
 </div>

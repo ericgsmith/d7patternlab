@@ -1,7 +1,7 @@
 <div class="form-item form-type-radios form-item-radios">
-{{# forms.text.showLabel }}
-    <label for="edit-radios">Radios {{# forms.text.required }}<span class="form-required" title="This field is required.">*</span>{{/ forms.text.required }}</label>
-{{/ forms.text.showLabel }}
+{{# forms.radios.label }}
+    <label for="edit-radios">{{ forms.radios.label }} {{# forms.radios.required }}<span class="form-required" title="This field is required.">*</span>{{/ forms.radios.required }}</label>
+{{/ forms.radios.label }}
         <div id="edit-radios" class="form-radios"><div class="form-item form-type-radio form-item-radios">
         <input type="radio" id="edit-radios-iaculis-viverra-vestibulum" name="radios" value="Iaculis viverra vestibulum" class="form-radio">  <label class="option" for="edit-radios-iaculis-viverra-vestibulum">Iaculis viverra vestibulum </label>
 
@@ -23,7 +23,7 @@
 
         </div>
     </div>
-    {{# forms.text.description }}
-        <div class="description">{{ forms.text.description }}</div>
-    {{/ forms.text.description }}
+    {{# forms.radios.description }}
+        <div class="description">{{ forms.radios.description }}</div>
+    {{/ forms.radios.description }}
 </div>

@@ -1,0 +1,9 @@
+{
+  "forms" : {
+    "text" : {
+      "label" : "Username",
+      "description" : "Enter your [sitename] username.",
+      "required" : true
+    }
+  }
+}
