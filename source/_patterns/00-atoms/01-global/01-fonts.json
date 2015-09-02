@@ -1,0 +1,12 @@
+{
+  "fonts": [
+    {
+      "name": "Sans serif font stack",
+      "value": "HelveticaNeue, Helvetica, Arial, sans-serif"
+    },
+    {
+      "name": "Serif font stack",
+      "value": "Georgia, Times, \"Times New Roman\", serif"
+    }
+  ]
+}

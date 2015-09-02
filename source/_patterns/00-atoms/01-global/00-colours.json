@@ -1,0 +1,40 @@
+{
+  "colours" : [
+    {
+      "name" : "Status border",
+      "value" : "#234600"
+    },
+    {
+      "name" : "Status text",
+      "value" : "#be7"
+    },
+    {
+      "name" : "Status background",
+      "value" : "#f8fff0"
+    },
+    {
+      "name" : "Warning border",
+      "value" : "#840"
+    },
+    {
+      "name" : "Warning text",
+      "value" : "#ed5"
+    },
+    {
+      "name" : "Warning background",
+      "value" : "#fffce5"
+    },
+    {
+      "name" : "Error border",
+      "value" : "#8c2e0b"
+    },
+    {
+      "name" : "Error text",
+      "value" : "#ed541d"
+    },
+    {
+      "name" : "Error background",
+      "value" : "#fef5f1"
+    }
+  ]
+}
