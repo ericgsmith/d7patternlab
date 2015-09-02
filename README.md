@@ -37,21 +37,20 @@ Uses a handful of core module stylesheets and the Bartik theme.
 ```
 
 ## Forms
-Forms... forms... forms. These can be a cunt to theme in Drupal, so we have matched Drupals form classes to our form
-atoms.
-
-Each form item can have its label, error state, required state and description altered in data.json, or per template.
+Each form item can have it's label, error state, required state and description altered in the global data.json file, or 
+per template.
 
 ###Example
-Shows the example data for a textarea used in a pattern. This requires refactoring as it currently limits the page / 
-pattern to the same data for each field type.
+Shows the example data for a text area used in a pattern. This currently limits the page / pattern to use the same data 
+for each field type. If this proves problematic we need to refactor the way this is controlled (the other option is hard
+coding the classes / markup or adding new atoms for each field).
 
 ```
     "textarea" : {
         "description" : false,
         "required": false,
         "error": false,
-        "showLabel": true
+        "label": "Text area"
     },
 ```
 
@@ -61,3 +60,7 @@ Add a new image atom for each image style created in Drupal.
 ## View modes
 Currently we provide an example organism for the node teaser view mode. All available view modes should be documented / 
 added to Pattern Lab.
+
+## Colours and fonts
+Colours and fonts are generated from their respective json file in the atom folder. Colours and font stacks can be added
+to the json file and the markup will not need to be updated.
